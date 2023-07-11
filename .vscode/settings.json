@@ -50,5 +50,10 @@
     "ProjectSettings/": true,
     "temp/": true,
     "Temp/": true
-  }
+  },
+  "[csharp]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp"
+  },
+  "omnisharp.useEditorFormattingSettings": false,
+  "omnisharp.enableEditorConfigSupport": false
 }
