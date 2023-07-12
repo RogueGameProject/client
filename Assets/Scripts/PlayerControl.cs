@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerControl : MonoBehaviour {
-    public float moveSpeed;
-    public Rigidbody2D rb;
+    [SerializeField] private float moveSpeed;
+    [SerializeField] private Rigidbody2D rb;
 
     private Vector2 moveDirection;
 
